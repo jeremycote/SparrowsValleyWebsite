@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    background-color: aquamarine;
+    gap: 1em;
+}
+
+.header :last-child {
+    margin-left: auto;
+}
+
+.header a {
+    background-color: var(--color-primary);
+    padding: 1em 2em;
+}

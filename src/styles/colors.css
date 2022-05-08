@@ -1,0 +1,15 @@
+.theme-light {
+    --color-primary: rgb(102, 10, 172);
+    --color-secondary: rgb(50, 207, 22);
+    --color-cta: rgb(255, 0, 0);
+    --color-background: rgb(255, 255, 255);
+    --color-background-inverse: rgba(0,0,0,1);
+}
+
+.theme-dark {
+    --color-primary: rgba(1,1,1,1);
+    --color-secondary: rgba(1,1,1,1);
+    --color-cta: rgba(1,1,1,1);
+    --color-background: rgba(0,0,0,1);
+    --color-background-inverse: rgba(1,1,1,1);
+}

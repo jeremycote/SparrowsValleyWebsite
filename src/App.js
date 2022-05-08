@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+// Components
+import NavHeader from "./components/nav-header/nav-header"
+import ArtistSpotlightGrid from "./components/artist-spotlight/artist-spotlight-grid";
+
+// CSS
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App theme-light">
+      <NavHeader/>
+      <div className="landing">
+        <div className="grid-span-2">
+          <h1>Sparrow</h1>
+          <a className="button">Concert Schedule</a>
+        </div>
+        <a className="button">Spotify</a>
+        <a className="button">Apple Music</a>
+      </div>
+      <ArtistSpotlightGrid/>
     </div>
   );
 }
