@@ -8,6 +8,16 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
+  margin-bottom: 4em;
+}
+
+.landing h1 {
+  font-size: 6em;
+  margin-bottom: 0;
+}
+
+.landing p {
+  margin-bottom: 4em;
 }
 
 .grid-span-2 {
@@ -15,8 +25,12 @@
 }
 
 .button {
-  background-color: red;
+  --property-color: var(--color-cta);
+  color: #FFFF;
+
+  background-color: var(--property-color);
   padding: 1em 2em;
   width: 50%;
-  border-radius: 25%;
+  border-radius: 1em;
+  box-shadow: 0.3em 0.3em 0 rgba(0,0,0,0.2);
 }

@@ -1,14 +1,15 @@
 .header {
     display: flex;
-    background-color: aquamarine;
     gap: 1em;
+
+    margin: 0 3em;
 }
 
-.header :last-child {
+.spacer-left {
     margin-left: auto;
 }
 
 .header a {
-    background-color: var(--color-primary);
     padding: 1em 2em;
+    font-weight: 700;
 }
