@@ -1,6 +1,9 @@
 import React from "react";
 import "./nav-header.css"
 
+// Routes
+import { Link } from "react-router-dom";
+
 class NavHeader extends React.Component {
     constructor(props){
         super(props)
@@ -9,9 +12,9 @@ class NavHeader extends React.Component {
     render() {
         return(
             <div className="header">
-                <a>Home</a>
-                <a>Songs</a>
-                <a>Concerts</a>
+                <Link to="/">Home</Link>
+                <Link to="/songs">Songs</Link>
+                <Link to="/concerts">Concerts</Link>
                 <a className="spacer-left">Instagram</a>
                 <a>Social</a>
             </div>

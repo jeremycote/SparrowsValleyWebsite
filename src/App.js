@@ -2,7 +2,7 @@
 import NavHeader from "./components/nav-header/nav-header"
 import ArtistSpotlightGrid from "./components/artist-spotlight/artist-spotlight-grid";
 import DynamicCarousel from "./components/carousel/carousel";
-import LandingArt from './components/carousel/landing-art.json'
+import LandingArt from './components/carousel/landing-art.json';
 
 // CSS
 import './App.css';
